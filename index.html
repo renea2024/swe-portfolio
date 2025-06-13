@@ -11,39 +11,35 @@
       href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@300..700&display=swap"
       rel="stylesheet"
     />
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <nav class="nav-bar">
-        <button class="nav-button button-watercolor" data-target="about">
-          About
-        </button>
-        <button class="nav-button button-watercolor" data-target="skills">
-          Skills
-        </button>
-        <button class="nav-button button-watercolor" data-target="contact">
-          Contact
-        </button>
-      </nav>
-    </header>
-
+    
     <main>
       <section class="hero" id="hero">
-        <h1 class="first-name" aria-label="Sharita">
-          <span>S</span><span>h</span><span>a</span><span>r</span><span>i</span
-          ><span>t</span><span>a</span>
-        </h1>
-
-        <p class="tagline">A journey of growth, written in code.</p>
+        <h1 class="first-name">Sharita</h1>
+        <p class="tagline">My journey of growth, written in code.</p>
+      
+        <nav class="button-nav">
+          <button class="nav-button button-watercolor" data-target="about">About</button>
+          <button class="nav-button button-watercolor" data-target="skills">Skills</button>
+          <button class="nav-button button-watercolor" data-target="project">Projects</button>
+          <button class="nav-button button-watercolor" data-target="projects">Contact</button>
+        </nav>
       </section>
+      
 
       <section class="about-me" id="about">
         <h2>About Me</h2>
         <p class="hobbies">
-          Avid reader · Food enthusiast · Nature lover · Dedicated coder ·
-          Lifelong learner
+          Avid reader · Dessert enthusiast · Nature lover · Dedicated coder ·
+      
         </p>
+        <hr class="about-divider" />
         <p>
           I'm a self-taught developer with a background in healthcare and a love
           for building clean, user-friendly web applications. I enjoy solving
@@ -51,27 +47,161 @@
           thoughtful digital experiences.
         </p>
       </section>
-
       <section class="skills" id="skills">
         <h2>Skills</h2>
-        <div class="skills-content">
-          <!-- Add your skills or skill list here -->
-          <p>In progress...</p>
+        <div class="skills-badges">
+          <span class="badge">
+            <i class="fab fa-html5"></i> HTML
+          </span>
+          <span class="badge">
+            <i class="fab fa-css3-alt"></i> CSS
+          </span>
+          <span class="badge">
+            <i class="fab fa-js-square"></i> JavaScript
+          </span>
+         <span class="badge">
+            <i class="fas fa-code-branch"></i> Git
+          </span>
+          <span class="badge">
+            <i class="fab fa-github"></i> GitHub
+          </span>
+          <span class="badge">
+            <i class="fas fa-terminal"></i> CLI Basics
+          </span>
+          <span class="badge badge-in-progress">
+            <i class="fab fa-react"></i> React (In Progress)
+          </span>
+          
         </div>
       </section>
+      
+      
+
 
       <section class="projects" id="projects">
-        <h2>Projects</h2>
-        <div class="projects-carousel">
-          <!-- Project carousel goes here -->
-        </div>
-      </section>
+        <section class="projects" id="projects">
+          <section class="projects" id="projects">
+            <h2>Projects</h2>
+          
+            <div class="project-card">
+              <h3 class="project-title">Portfolio Website</h3>
+              <p class="project-description">
+                A personal portfolio designed and developed using HTML, CSS, and JavaScript to showcase my technical skills and project work. Emphasizes responsive design and clean user experience, reflecting my growth as a developer.
+              </p>
+              <div class="project-buttons">
+                <a href="#" class="button-watercolor">Live Site</a>
+                <a href="#" class="button-watercolor">Code</a>
+              </div>
+            </div>
+          
+            <div class="project-card">
+              <h3 class="project-title">Pomodoro Task Tracker</h3>
+              <p class="project-description">
+                A productivity application implementing the Pomodoro Technique to enhance focus and time management. Built with vanilla JavaScript, it features task tracking, countdown timers, and state persistence, demonstrating strong frontend development skills.
+              </p>
+              <div class="project-buttons">
+                <a href="#" class="button-watercolor">Live Site</a>
+                <a href="#" class="button-watercolor">Code</a>
+              </div>
+            </div>
+          
+            <div class="project-card">
+              <h3 class="project-title">Meal Planner or Recipe Manager</h3>
+              <p class="project-description">
+                A full-stack application enabling users to plan meals and manage recipes. Incorporates user authentication and CRUD operations, providing hands-on experience with backend technologies and database integration.
+              </p>
+              <div class="project-buttons">
+                <a href="#" class="button-watercolor">Live Site</a>
+                <a href="#" class="button-watercolor">Code</a>
+              </div>
+            </div>
+          
+            <div class="project-card">
+              <h3 class="project-title">Weather Tracker</h3>
+              <p class="project-description">
+                A dynamic web application that fetches and displays real-time weather data using third-party APIs. Showcases proficiency in asynchronous JavaScript, API integration, and responsive UI design.
+              </p>
+              <div class="project-buttons">
+                <a href="#" class="button-watercolor">Live Site</a>
+                <a href="#" class="button-watercolor">Code</a>
+              </div>
+            </div>
+          
+            <div class="project-card">
+              <h3 class="project-title">URL Shortener</h3>
+              <p class="project-description">
+                A backend-focused project that allows users to create and manage shortened URLs. Highlights understanding of server-side routing, database management, and URL redirection techniques.
+              </p>
+              <div class="project-buttons">
+                <a href="#" class="button-watercolor">Live Site</a>
+                <a href="#" class="button-watercolor">Code</a>
+              </div>
+            </div>
+          
+            <div class="project-card">
+              <h3 class="project-title">Chat Application</h3>
+              <p class="project-description">
+                A real-time chat platform utilizing WebSocket technology for instant messaging and user presence. Demonstrates advanced backend programming, state management, and secure user authentication.
+              </p>
+              <div class="project-buttons">
+                <a href="#" class="button-watercolor">Live Site</a>
+                <a href="#" class="button-watercolor">Code</a>
+              </div>
+            </div>
+          
+            <div class="project-card">
+              <h3 class="project-title">Automated Email Reminder</h3>
+              <p class="project-description">
+                A backend service designed to send scheduled email notifications. Integrates task scheduling and external email APIs, illustrating expertise in backend automation and third-party service integration.
+              </p>
+              <div class="project-buttons">
+                <a href="#" class="button-watercolor">Live Site</a>
+                <a href="#" class="button-watercolor">Code</a>
+              </div>
+            </div>
+          
+            <div class="project-card">
+              <h3 class="project-title">Simple Math & Typing Games</h3>
+              <p class="project-description">
+                Interactive frontend applications that reinforce JavaScript logic and UI development skills. Focused on creating engaging user experiences through game mechanics and responsive design.
+              </p>
+              <div class="project-buttons">
+                <a href="#" class="button-watercolor">Live Site</a>
+                <a href="#" class="button-watercolor">Code</a>
+              </div>
+            </div>
+          
+            <div class="project-card">
+              <h3 class="project-title">Travel Site</h3>
+              <p class="project-description">
+                A UI/UX-driven project showcasing responsive layouts and intuitive navigation. Designed to deliver an immersive browsing experience while demonstrating proficiency in frontend development and design principles.
+              </p>
+              <div class="project-buttons">
+                <a href="#" class="button-watercolor">Live Site</a>
+                <a href="#" class="button-watercolor">Code</a>
+              </div>
+            </div>
+          </section>
 
-      <section class="contact" id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out via email or social media.</p>
-        <!-- Add contact form or links here -->
-      </section>
+      
+
+          <footer class="footer">
+            <div class="footer-content">
+              <h2>Contact</h2>
+              <p class="footer-text">Let’s connect</p>
+              <div class="contact-icons">
+                <a href="mailto:sharitaadenekan@gmail.com" aria-label="Email">
+                  <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://github.com/renea2024" target="_blank" aria-label="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/sharita-adenekan" target="_blank" aria-label="LinkedIn">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </footer>
     </main>
 
     <script src="script.js"></script>
