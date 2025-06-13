@@ -144,7 +144,20 @@ section {
   box-shadow: 0 2px 6px rgba(21, 152, 149, 0.1);
   background-color: #fff;
   transition: box-shadow 0.3s ease;
+  text-align:center;
 }
+
+.project-thumbnail {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin: 0 auto 1rem; /* ✅ center it */
+  display: block;       /* ✅ needed for margin auto to apply */
+  box-shadow: 0 2px 6px rgba(21, 152, 149, 0.1);
+}
+
+
 
 .project-card:hover,
 .project-card:focus-within {
